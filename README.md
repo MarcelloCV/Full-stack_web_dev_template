@@ -5,7 +5,7 @@ To help web development beginners to start building their project with this temp
 - A final template for swift web development with minimal dependencies yet full-fledged, versatile, performant, reliable, and efficient.
 > [!TIP] 
 > Plain → Utilities → Templating → Building → Deployment → Maintenance
-### Measure of success…
+### Measures to success…
 - Comprehensive REST APIs to handle HTTP requests from the client
 - Session to enable auto-save for user-input data, and to achieve persistent log-in
 - Separation of concerns (R.I.P. PHP) between the server side and the client side, as well as a partition for the static site generator which is to be rendered at build time unlike the two
