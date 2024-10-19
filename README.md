@@ -17,5 +17,5 @@ To help web development beginners to start building their project with this temp
 - Web sockets for live stream using UDP to maintain continuous connection without unnecessary TCP handshaking 
 - Provides essential components leveraging Bootstrap CSS styling
 - Make a succinct documentation about the template
-- Add comments for some insightful cheat-sheets and idioms within the template for right-on-the-field or observative learning 
+- Add comments for some insightful cheat-sheets and idioms within the template for hands-on or observative learning 
 
