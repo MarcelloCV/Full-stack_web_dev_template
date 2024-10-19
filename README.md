@@ -1,2 +1,3 @@
-# Full-stack_web_dev_template
-A handy blazing minimalistic template for full-stack web dev with Go + Fiber + HTMX + Bootstrap CSS 
+## Notice
+Check out branch [tentative](../../tree/tentative) to view project's early description in the README file.
+
