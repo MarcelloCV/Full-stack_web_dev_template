@@ -7,11 +7,11 @@ To help web development beginners to start building their project with this temp
 > Plain → Utilities → Templating → Building → Deployment → Maintenance
 ### Uses…
 - Comprehensive REST APIs to handle HTTP requests from the client
-- Custom HTML element attributes for HTTP request methods (`GET`, `POST`, `PUT`, and `DELETE`) to specify URL endpoint, and for target element specifying CSS selector, but custom boolean attribute ones for triggering events (`click`, `mouseover`, ...) as well as for target element's property (`innerHTML`, `outerHTML`, ...), all of which is kind of HTML-like and is defined in Javascript
+- Custom HTML element attributes for HTTP request methods (`GET`, `POST`, `PUT`, and `DELETE`) to specify URL endpoint, and for target element specifying CSS selector, but custom boolean ones for target element's property (`innerHTML`, `outerHTML`, ...), all of which is kind of HTML-like and the logic is wrapped inside a Javascript function whose invocation is triggered by the HTML built-in attributes, like `onclick`, `onmouseover`, and so forth
 - Session to enable auto-save for user-input data, and to achieve persistent log-in
 - Separation of concerns (R.I.P. PHP) between server side and client side, as well as a partition for the static site generator which is to be rendered at build time unlike the two
 - HTML templating in `templates` package with block definition and inheritance directives ready to replace the template directives, whose output will be rendered and stored in `builds` package
-- SQL databases alongside alternatives to them, such as any NoSQL databases and even server-located/internal databases, may it be on cloud or on premise
+- SQL databases alongside alternatives to them, such as any NoSQL databases, may it be on cloud or on premise
 - Basic implementations of Server-Side Rendering (SSR) by parsing and rendering at once on page request, or Static Site Generation (SSG) by parsing at build time which later can be rendered on page request
 - Basic architecture for both Single-Page App (SPA) and Multi-Page App (MPA)
 - Asynchronous DOM manipulation for seamless page and element transition/animation with minimal JavaScript bloating as possible
