@@ -2,20 +2,20 @@
 ### Implication…
 To help web development beginners to start building their project with this template as a handful and versatile foundation rather than having to start all over from scratch. 
 ### Goal…
-- A final template for swift web development with minimal dependencies yet full-fledged, versatile, performant, reliable, and efficient.
+- A final template for swift web development with minimal dependencies yet versatile, performant, reliable, and efficient.
 > [!TIP] 
 > Template → Building → Deployment → Maintenance
-### Uses…
-- Comprehensive REST APIs to handle HTTP requests from the client
-- Custom HTML element attributes for HTTP request methods (`GET`, `POST`, `PUT`, and `DELETE`) to specify URL endpoint, and for target element specifying CSS selector, but custom boolean ones for target element's property (`innerHTML`, `outerHTML`, ...), all of which is kind of HTML-like and the logic is wrapped inside a Javascript function whose invocation is triggered by the HTML built-in attributes, like `onclick`, `onmouseover`, and so forth
-- Session to enable auto-save for user-input data, and to achieve persistent log-in
-- Separation of concerns (R.I.P. PHP) between server side and client side, as well as a partition for the static site generator which is to be rendered at build time unlike the two
-- HTML templating in `templates` package with block definition and inheritance directives ready to replace the template directives, whose output will be rendered and stored in `builds` package
+### Deliverables…
+- Basic REST APIs to handle HTTP requests from the client
+- ~Custom HTML element attributes for HTTP request methods (`GET`, `POST`, `PUT`, and `DELETE`) to specify URL endpoint, and for target element specifying CSS selector, but custom boolean ones for target element's property (`innerHTML`, `outerHTML`, ...), all of which is kind of HTML-like and the logic is wrapped inside a Javascript function whose invocation is triggered by the HTML built-in attributes, like `onclick`, `onmouseover`, and so forth~
+- Session to enable auto-save for user-input data, and for persistent log-in
+- Separation of concerns between server side and client side, as well as a separate file for the static site generator which is to be rendered at build time
+- HTML templating in `templates` package with block definition and inheritance directives ready to replace the template directives, whose output will be rendered
 - SQL databases alongside alternatives to them, such as any NoSQL databases, may it be on cloud or on premise
-- Basic implementations of Server-Side Rendering (SSR) by parsing and rendering at once on page request, or Static Site Generation (SSG) by parsing at build time which later can be rendered on page request
+- Basic implementations of Server-Side Rendering (SSR) by parsing and rendering at once on the server on page request, or Static Site Generation (SSG) by parsing at build time which later can be rendered on page request
 - Basic architecture for both Single-Page App (SPA) and Multi-Page App (MPA)
 - Asynchronous DOM manipulation for seamless page and element transition/animation with minimal JavaScript bloating as possible
-- Web sockets for live stream using UDP to maintain continuous connection without unnecessary TCP handshaking 
+- Web sockets for live stream and reak-time two way communication, which uses UDP to maintain continuous connection without unnecessary TCP handshaking 
 - Essential components leveraging Pico CSS styling
 - Succinct documentation about the template
 - Comments added for some insightful cheat-sheets and idioms within the template for hands-on or observative learning 
